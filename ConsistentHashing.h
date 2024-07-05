@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <map>
 #include <string>
@@ -83,4 +84,4 @@ private:
         return hashValue[0];
     }
 };
-#pragma once
+
