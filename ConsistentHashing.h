@@ -5,9 +5,9 @@
 #include <vector>
 #include "MurmurHash3.h" // Ensure you have the MurmurHash3 implementation
 
-/* author : Achintya Kumar Paul
- *  Email  : kumarpaul51@gmail.com
- */
+/***  Author : Achintya Kumar Paul
+ *    Email  : kumarpaul51@gmail.com
+ ***/
 
 using namespace std;
 
