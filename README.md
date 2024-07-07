@@ -17,3 +17,17 @@ When a node is added or removed from the system, only a fraction of the keys (ty
 ## Virtual Nodes (Replication):
 
 To balance the load evenly among nodes, each physical node is typically represented by multiple virtual nodes or replicas on the ring. This technique helps to distribute the data more uniformly.
+
+# Configure and Build the Project with CMake and MinGW
+## Open a terminal (Command Prompt or PowerShell) and navigate to your project directory.
+## Create a build directory and navigate into it:
+mkdir build
+cd build
+
+## Run CMake to configure the project with MinGW:
+cmake -G "MinGW Makefiles" ..
+
+This will generate the necessary Makefiles for your project.
+
+## Build the project using mingw32-make:
+mingw32-make
